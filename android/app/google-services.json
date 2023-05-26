@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "221277521425",
+    "project_id": "cafeteria-ieb",
+    "storage_bucket": "cafeteria-ieb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221277521425:android:65cc7b30905e1b0f3e13b0",
+        "android_client_info": {
+          "package_name": "com.cafeteria_ieb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221277521425-peokhdupffl3k754t3derm2fibe6tr39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi3uYhqSaHtDlLMlCpFmRC08eEpTB6kmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221277521425-peokhdupffl3k754t3derm2fibe6tr39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
