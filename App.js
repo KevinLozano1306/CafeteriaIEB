@@ -28,7 +28,7 @@ export default function App() {
     });
 
     responseListener.current = Notifications.addNotificationResponseReceivedListener(response => {
-      console.log(response);
+    
     });
 
     return () => {
@@ -48,6 +48,7 @@ export default function App() {
         title: "You've got mail! 📬",
         body: 'Here is the notification body',
         data: { data: 'goes here' },
+        sound: 'default'
       },
       trigger: { seconds: 2 },
     });
@@ -62,6 +63,7 @@ export default function App() {
         importance: Notifications.AndroidImportance.MAX,
         vibrationPattern: [0, 250, 250, 250],
         lightColor: '#FF231F7C',
+        sound: 'default',
       });
     }
   

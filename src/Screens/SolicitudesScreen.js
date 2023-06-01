@@ -20,7 +20,7 @@ export function SolicitudesScreen() {
     const apiResponse = await getSolicitudes();
     setResponse(apiResponse);
   };
-
+ 
   return (
     <SafeAreaView>
       {response && response.length > 0 ? (
